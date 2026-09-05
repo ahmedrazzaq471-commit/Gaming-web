@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PixelForge Games | Game Provider</title>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968259.png">
+<style>
+  :root{
+    --bg:#0a0f1e; --card:#111936; --accent:#6c5ce7; --text:#e9ecf1;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI, Arial, sans-serif}
+  body{background:var(--bg);color:var(--text);line-height:1.6}
+  header{background:linear-gradient(135deg,#6c5ce7,#00d2d3);padding:60px 20px;text-align:center}
+  header h1{font-size:2.5rem;margin-bottom:10px}
+  header p{opacity:0.9;font-size:1.1rem}
+  nav{background:#0d1329;padding:15px;position:sticky;top:0;z-index:10}
+  nav a{color:var(--text);text-decoration:none;margin:0 15px;font-weight:600}
+  .container{max-width:1100px;margin:auto;padding:40px 20px}
+  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .card{background:var(--card);border-radius:12px;overflow:hidden;transition:0.3s;border:1px solid #1f2a4d}
+  .card:hover{transform:translateY(-5px);border-color:var(--accent)}
+  .card img{width:100%;height:180px;object-fit:cover}
+  .card-body{padding:20px}
+  .card-body h3{margin-bottom:8px;color:var(--accent)}
+  .btn{display:inline-block;background:var(--accent);color:white;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;margin-top:10px}
+  .btn:hover{opacity:0.85}
+  footer{text-align:center;padding:30px;background:#0d1329;margin-top:40px;font-size:0.9rem;opacity:0.7}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>PixelForge Games</h1>
+  <p>We Publish Games To :. Play. Download. Enjoy.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#games">Games</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="games">
+  <h2 style="margin-bottom:20px">Our Games</h2>
+  <div class="games">
+    
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=600" alt="Game 1">
+      <div class="card-body">
+        <h3>GTA Voice City</h3>
+        <p>2D game ,down load it and enjoy playing. Free to play.</p>
+        <a href="web games/Grand Theft Auto-Vice City" class="btn">Download window</a>
+        <a href="web games/Grand Theft Auto-Vice City" class="btn" style="background:#2d3436"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="C:\Users\Hamza Computer\Desktop\Gaming Web\Images\123.jpg" alt="Game 2">
+      <div class="image">
+        <h3>Second Sight </h3>
+        <p>3D game ,Shooting,Sespense and Militry Game. No ads, no internet needed.</p>
+        <a href="web games/Second Sight" class="btn">Download window</a>
+        <a href="web games/Second Sight" class="btn" style="background:#2d3436"></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600" alt="Game 3">
+      <div class="card-body">
+        <h3>Puzzle Quest</h3>
+        <p>Brain puzzle game with 200+ levels. No ads, no internet needed.</p>
+        <a href="#" class="btn">Download APK</a>
+        <a href="#" class="btn" style="background:#2d3436"></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container" id="Ahmed Razzaq">
+  <h2>About Us</h2>
+  <p>PixelForge Games is an adventure game studio based in Pakistan. We build mobile and web games for players around the world. Our goal: fun games, no pay-to-win.</p>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact</h2>
+  <p>Email: contact@pixelforge.com</p>
+  <p>WhatsApp: +92 3324078328</p>
+  <p>Follow us on YouTube and Discord</p>
+</div>
+
+<footer>
+  © 2026 PixelForge Games. All rights reserved. Built with GitHub Pages.
+</footer>
+
+</body>
+</html>
